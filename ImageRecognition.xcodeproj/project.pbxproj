@@ -16,6 +16,7 @@
 		179E92C625418E250021017F /* ImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E92C525418E250021017F /* ImageRecognitionTests.swift */; };
 		179E92D125418E250021017F /* ImageRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179E92D025418E250021017F /* ImageRecognitionUITests.swift */; };
 		179E92E2254194080021017F /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 179E92E1254194080021017F /* Inceptionv3.mlmodel */; };
+		179E92EF2542BE1B0021017F /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 179E92EE2542BE1B0021017F /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		179E92D025418E250021017F /* ImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		179E92D225418E250021017F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		179E92E1254194080021017F /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		179E92EE2542BE1B0021017F /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				179E92B425418E230021017F /* Main.storyboard */,
 				179E92B725418E250021017F /* Assets.xcassets */,
 				179E92E1254194080021017F /* Inceptionv3.mlmodel */,
+				179E92EE2542BE1B0021017F /* MobileNetV2.mlmodel */,
 				179E92B925418E250021017F /* LaunchScreen.storyboard */,
 				179E92BC25418E250021017F /* Info.plist */,
 			);
@@ -264,6 +267,7 @@
 				179E92B325418E230021017F /* ViewController.swift in Sources */,
 				179E92E2254194080021017F /* Inceptionv3.mlmodel in Sources */,
 				179E92AF25418E230021017F /* AppDelegate.swift in Sources */,
+				179E92EF2542BE1B0021017F /* MobileNetV2.mlmodel in Sources */,
 				179E92B125418E230021017F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
